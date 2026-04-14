@@ -1,0 +1,11 @@
+{
+  "name": "cursor-review-plugin",
+  "description": "Cursor-powered code review plugin for Claude Code",
+  "plugins": [
+    {
+      "name": "cursor-review",
+      "description": "Use Cursor's AI agent to provide second-opinion code reviews. Standard and adversarial modes.",
+      "path": "."
+    }
+  ]
+}
