@@ -1,11 +1,21 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cursor-review-plugin",
   "description": "Cursor-powered code review plugin for Claude Code",
+  "owner": {
+    "name": "tylergraydev",
+    "email": "tylerg@emergentsoftware.net"
+  },
   "plugins": [
     {
       "name": "cursor-review",
       "description": "Use Cursor's AI agent to provide second-opinion code reviews. Standard and adversarial modes.",
-      "path": "."
+      "category": "development",
+      "source": ".",
+      "author": {
+        "name": "tylergraydev"
+      },
+      "version": "1.0.0"
     }
   ]
 }
