@@ -1,0 +1,26 @@
+{
+  "name": "cursor-review",
+  "version": "1.0.0",
+  "description": "Use Cursor's AI agent to provide second-opinion code reviews. Includes standard and adversarial review modes.",
+  "author": "tylergraydev",
+  "skills": [
+    {
+      "name": "cursor-review",
+      "description": "Standard and adversarial code review via Cursor's Agent CLI"
+    }
+  ],
+  "commands": [
+    {
+      "name": "cursor:review",
+      "description": "Run a standard code review on your changes using Cursor"
+    },
+    {
+      "name": "cursor:adversarial-review",
+      "description": "Run an adversarial code review that actively tries to break your code using Cursor"
+    },
+    {
+      "name": "cursor:setup",
+      "description": "Verify that the Cursor Agent CLI is installed and working"
+    }
+  ]
+}
